@@ -5,7 +5,7 @@ I created this visualizer by using p5js Libarary</br>
 <b> Website link</b> :https://michael-maurice.github.io/</br>
 <b> vido link</b> :https://www.youtube.com/watch?v=zh9CXYtMcXU</br>
 
-<h3>Bubble :- </h3>
+<h2>Bubble :- </h2>
 <b>
  <code>
  
@@ -33,7 +33,7 @@ I created this visualizer by using p5js Libarary</br>
 </code>
 
 </b>
-<h3>selection :- </h3>
+<h2>selection :- </h2>
 <b>
   <code>
  
@@ -59,7 +59,7 @@ I created this visualizer by using p5js Libarary</br>
      i++;}
 </code>
 </b>
-<h3>Quick :- </h3>
+<h2>Quick :- </h2>
 <b>
 <code>
  
@@ -95,12 +95,11 @@ I created this visualizer by using p5js Libarary</br>
       states[i] = -1;
     }
      }
-
     return pivotIndex;
-   }
+                    }
   </code>
 </b>
-<h3>insertian :- </h3>
+<h2>insertian :- </h2>
 <b>
 <code>
  
@@ -125,7 +124,6 @@ I created this visualizer by using p5js Libarary</br>
      noLoop();
      }
      i++;
-     l++;
-   }
+     l++;}
 </code>
 </b>
