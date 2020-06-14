@@ -34,6 +34,7 @@ I created this visualizer by using p5js Libarary</br>
 
 </b>
 <h3>selection :- </h3>
+<b>
   <code>
  
      async function Selection_sort() {
@@ -57,86 +58,74 @@ I created this visualizer by using p5js Libarary</br>
      }
      i++;}
 </code>
+</b>
 <h3>Quick :- </h3>
+<b>
 <code>
-  async function quickSort(arr, start, end) {
-  if (start >= end) {
+ 
+    async function quickSort(arr, start, end) {
+     if (start >= end) {
     return;
-  }
-
-  let index = await partition(arr, start, end);
-  states[index] = -1;
-
-  await Promise.all([
+    }
+     let index = await partition(arr, start, end);
+      states[index] = -1;
+      await Promise.all([
     quickSort(arr, start, index - 1),
     quickSort(arr, index + 1, end)
-  ]);
-}
-
-async function partition(arr, start, end) {
-  for (let i = start; i < end; i++) {
+    ]);
+    }
+    async function partition(arr, start, end) {
+     for (let i = start; i < end; i++) {
     states[i] = 1;
-  }
-
-  let pivotValue = arr[end];
-  let pivotIndex = start;
-  states[pivotIndex] = 0;
-  for (let i = start; i < end; i++) {
-
+    }
+     let pivotValue = arr[end];
+     let pivotIndex = start;
+     states[pivotIndex] = 0;
+    for (let i = start; i < end; i++) {
     if (arr[i] < pivotValue) {
-
       await swap(arr, i, pivotIndex);
       states[pivotIndex] = -1;
       pivotIndex++;
       states[pivotIndex] = 0;
-    }
-  }
-  await swap(arr, pivotIndex, end);
-
-  for (let i = start; i < end; i++) {
-
+     }
+     }
+      await swap(arr, pivotIndex, end);
+     for (let i = start; i < end; i++) {
     if (i != pivotIndex) {
       states[i] = -1;
     }
-  }
+     }
 
-  return pivotIndex;
-}
+    return pivotIndex;
+   }
   </code>
-
+</b>
 <h3>insertian :- </h3>
+<b>
 <code>
  
-async function insertion_sort() {
-  if (i < values.length) {
-
+    async function insertion_sort() {
+     if (i < values.length) {
        a=values[i];
-
     if (values[i] < values[0]) {
-
       values.unshift(values.splice(i,1)[0]);
-
     }
     else {
         b=values[i-1];
-     
       if (values[i]< values[i-1]) {
-
-        //find where number should go
         for (var j = 1; j < i; j++) {
           if (values[i]>= values[j-1] && values[i] < values[j]) {
-
-            
             values.splice(j,0,values.splice(i,1)[0]);
           }
         }
       }
     }
-  } else {
-    console.log("finished");
-    noLoop();
-  }
-  i++;
-  l++;
-}
+     } else {
+     console.log("finished");
+     noLoop();
+     }
+     i++;
+     l++;
+   }
 </code>
+</b>
