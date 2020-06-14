@@ -6,7 +6,7 @@ I created this visualizer by using p5js Libarary</br>
 <b> vido link</b> :https://www.youtube.com/watch?v=zh9CXYtMcXU</br>
 
 <h3>Bubble :- </h3>
-```javascript 
+<code>
 async function BubleSort() {
   if (i < values.length) {
 l=i+1;
@@ -30,7 +30,7 @@ await sleep(150);
   arr[a] = arr[b];
   arr[b] = temp;
 }
-```
+</code>
 <h3>selection :- </h3>
 ```javascript
 ```
@@ -38,3 +38,6 @@ await sleep(150);
 ```javascript
 ```
 
+<h3>insertian :- </h3>
+```javascript
+```
