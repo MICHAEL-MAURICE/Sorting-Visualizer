@@ -6,70 +6,55 @@ I created this visualizer by using p5js Libarary</br>
 <b> vido link</b> :https://www.youtube.com/watch?v=zh9CXYtMcXU</br>
 
 <h3>Bubble :- </h3>
- ```javascript 
-async function BubleSort() {
-  if (i < values.length) {
-l=i+1;
-    await sleep(50);
-for (let j = 0; j < values.length- 1; j++) {
-await sleep(150);
+ <code>
+ 
+    async function BubleSort() {
+    if (i < values.length) {
+     l=i+1;
+      await sleep(50);
+     for (let j = 0; j < values.length- 1; j++) {
+           await sleep(150);
        a = values[j];
        b = values[j + 1];
       if (a > b) {
          swap(values, j, j + 1);
       }
     }
-  } else {
+     } else {
     console.log("finished");
     noLoop(); }
-  i++;}
-  async function swap(arr, a, b) {
-  let temp = arr[a];
-  arr[a] = arr[b];
-  arr[b] = temp;
-}
-```
+     i++;}
+     async function swap(arr, a, b) {
+     let temp = arr[a];
+     arr[a] = arr[b];
+     arr[b] = temp;
+     }
+</code>
 
 
 <h3>selection :- </h3>
-
-<code>
-     
-    async function Selection_sort() {
+  <code>
  
-    if (i < values.length) {
-                        
-    await sleep(100);
-                        
+     async function Selection_sort() {
+    if (i < values.length) {   
+    await sleep(100);          
     let min=i;
-                        
-    let temp=values[i];    
-                        
+    let temp=values[i];           
      a=values[i];
-
     for (let j = i+1; j < values.length; j++) {
-
         b=values[j];
       if ( values[j]<values[min]) {
-
         min=j;
-
       }
     }
-  
     values[i]=values[min];
-
     values[min]=temp;
-    
      } 
     else {
      console.log("finished");
      noLoop();
      }
-     i++;
-
-    }
-
+     i++;}
 </code>
 <h3>Quick :- </h3>
 <code>
