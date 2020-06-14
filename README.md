@@ -3,7 +3,7 @@ this website is used to visualized four sorting algorithms </br>
 (Bubble,selection,Quick,insertion) </br>
 I created this visualizer by using p5js Libarary</br>
 <b> Website link</b> :https://michael-maurice.github.io/</br>
-<b> vido link</b> :https://www.youtube.com/watch?v=zh9CXYtMcXU</br>
+<b> video link</b> :https://www.youtube.com/watch?v=zh9CXYtMcXU</br>
 
 <h2>Bubble :- </h2>
 <b>
