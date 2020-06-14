@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+nav {
+  background-color: #03a9f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+nav ul li.logo:hover a {
+  background-color: initial;
+}
+
+nav ul li:hover a,
+nav ul li a.active {
+  background-color: #0288d1;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 25px 15px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+nav ul li.logo a {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+nav ul li button {
+  background-color: #ff4081;
+  color: #fff;
+  font-weight: 500;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+nav ul li button:hover {
+  background-color: #e91e63;
+}
+/*# sourceMappingURL=style.css.map */
