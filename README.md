@@ -34,13 +34,18 @@ await sleep(150);
 <h3>selection :- </h3>
 
 <code>
-async function Selection_sort() {
-  if (i < values.length) {
-  await sleep(100);
+     
+    async function Selection_sort() {
+ 
+    if (i < values.length) {
+                        
+    await sleep(100);
+                        
     let min=i;
-    let temp=values[i];
-
-a=values[i];
+                        
+    let temp=values[i];    
+                        
+     a=values[i];
 
     for (let j = i+1; j < values.length; j++) {
 
@@ -55,13 +60,15 @@ a=values[i];
     values[i]=values[min];
 
     values[min]=temp;
-  } else {
-    console.log("finished");
-    noLoop();
-  }
-  i++;
+    
+     } 
+    else {
+     console.log("finished");
+     noLoop();
+     }
+     i++;
 
-}
+    }
 
 </code>
 <h3>Quick :- </h3>
