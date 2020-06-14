@@ -37,6 +37,4 @@ await sleep(150);
 <h3>Quick :- </h3>
 ```javascript
 ```
-<h3>insertian :- </h3>
-```javascript
-```
+
