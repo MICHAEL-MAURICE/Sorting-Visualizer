@@ -6,6 +6,7 @@ I created this visualizer by using p5js Libarary</br>
 <b> vido link</b> :https://www.youtube.com/watch?v=zh9CXYtMcXU</br>
 
 <h3>Bubble :- </h3>
+<b>
  <code>
  
     async function BubleSort() {
@@ -31,7 +32,7 @@ I created this visualizer by using p5js Libarary</br>
      }
 </code>
 
-
+</b>
 <h3>selection :- </h3>
   <code>
  
