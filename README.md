@@ -28,7 +28,7 @@ await sleep(150);
   arr[a] = arr[b];
   arr[b] = temp;
 }
-
+```
 
 
 <h3>selection :- </h3>
