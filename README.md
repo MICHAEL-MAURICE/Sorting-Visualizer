@@ -7,28 +7,26 @@ I created this visualizer by using p5js Libarary</br>
 
 <h3>Bubble :- </h3>
 <code>
-async function BubleSort() {
-  if (i < values.length) {
-l=i+1;
-    await sleep(50);
-for (let j = 0; j < values.length- 1; j++) {
-await sleep(150);
-       a = values[j];
-       b = values[j + 1];
-      if (a > b) {
-         swap(values, j, j + 1);
-      }
-    }
-  } else {
-    console.log("finished");
-    noLoop();
-  }
-  i++;
-}
-  async function swap(arr, a, b) {
-  let temp = arr[a];
-  arr[a] = arr[b];
-  arr[b] = temp;
+async function BubleSort() {</br>
+  if (i < values.length) {</br>
+l=i+1;</br>
+    await sleep(50);</br>
+for (let j = 0; j < values.length- 1; j++) {</br>
+await sleep(150);</br>
+       a = values[j];</br>
+       b = values[j + 1];</br>
+      if (a > b) {</br>
+         swap(values, j, j + 1);</br>
+      }</br>
+    }</br>
+  } else {</br>
+    console.log("finished");</br>
+    noLoop(); }</br>
+  i++;}</br>
+  async function swap(arr, a, b) {</br>
+  let temp = arr[a];</br>
+  arr[a] = arr[b];</br>
+  arr[b] = temp;</br>
 }
 </code>
 <h3>selection :- </h3>
